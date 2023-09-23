@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Mate+SC&display=swap");
+
+.font-primary {
+  font-family: "Cinzel", serif;
+}
+
+header {
+  font-family: "Mate SC", serif;
+}
