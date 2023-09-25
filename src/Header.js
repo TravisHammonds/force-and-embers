@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import "./Header.css";
 
 function Header() {
@@ -23,14 +24,14 @@ function Header() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <Link to="/" className="nav-link active">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/compendium">
+                <Link className="nav-link" to="/compendium">
                   Compendium
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
