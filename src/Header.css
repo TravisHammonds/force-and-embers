@@ -1,7 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Mate+SC&display=swap");
 
-.font-primary {
+/* colors 
+
+ primary: #7c142c
+secondary: #e4934c
+tertiary: #cc8c54
+accent: #542b29 
+
+*/
+
+.title {
   font-family: "Cinzel", serif;
+  color: #7c142c !important;
+}
+
+.navbar {
+  background-color: #e4934c;
+}
+
+.nav-link {
+  color: #7c142c !important;
 }
 
 header {
