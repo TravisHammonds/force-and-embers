@@ -1,0 +1,122 @@
+
+/* colors 
+
+Primary Color (Main Theme):
+Hex Code: #2C2D34
+
+Secondary Color (Supporting Theme):
+Hex Code: #E94822
+
+Accent Color (Highlight/Call-to-Action):
+Hex Code: #F2910A
+
+Alternative Color (Versatile Highlight):
+Hex Code: #EFD510
+
+*/
+
+#root {
+  background-color: #2C2D34;
+  font-family: "Mate SC", serif;
+  font-size: x-large;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+html {
+  background-color: #2C2D34
+}
+
+/* Forms */
+#name {
+    width: 400px; 
+}
+
+#type {
+    width: auto;
+}
+
+#cost {
+    width: 95px;
+}
+
+#level {
+    width: 80px;
+}
+
+#range {
+    width: 100px;
+    height: 50px
+}
+
+#rangeType {
+    height: 50px;
+    width: 150px;
+}
+
+#duration {
+    width: 100px;
+}
+
+#castingTime {
+    width: 125px;
+}
+
+#mastery {
+    width: 200px;
+    height: 50px;
+}
+
+.input-group-text {
+    background-color:#F2910A !important;
+    width: auto;
+}
+
+.input-group-select {
+    background-color: #F2910A !important;
+    color: white !important;
+}
+ 
+
+.btn {
+  background-color: #2C2D34 !important;
+  border-color: #E94822 !important;
+  color:  #E94822 !important;
+  transition: all 0.7s !important;
+}
+
+.btn:hover {
+  background-color: #E94822!important;
+  color:  #2C2D34 !important;
+  border-color: #E94822!important;
+}
+
+.form-label {
+  color: white;
+}
+
+.form-select {
+    background-color: white !important;
+    border: none !important; 
+   
+}
+
+span .form-select {
+    background-color: #F2910A !important;
+    height: 35px;
+    width: auto;
+}
+
+.form-check-label {
+    color: white !important;
+    margin-bottom: 10px;
+}
+
+.form-check-input:checked {
+    background-color: #E94822 !important;
+    border-color: #E94822 !important;
+}
+
+.weapon-input{
+    margin-bottom: 10px !important;
+}

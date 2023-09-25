@@ -5,7 +5,7 @@ import "./Header.css";
 function Header() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg">
+      <nav className="navbar fixed-top navbar-expand-lg mb-5">
         <div className="container-fluid">
           <a className="navbar-brand title" href="/">
             Force and Embers

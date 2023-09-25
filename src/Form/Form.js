@@ -12,7 +12,7 @@ function Form() {
     //weapons
     damage: 1,
     damageDice: "",
-      //properties
+    //properties
     finesseProperty: false,
     reachProperty: false,
     lightProperty: false,
@@ -26,10 +26,12 @@ function Form() {
     duration: 1,
     durationBase: "",
     range: 1,
+    rangeType: "",
     school: "",
     level: 1,
     castingTime: 1,
     castingTimeBase: "",
+    concentration: false,
   };
 
   const [inputType, setInputType] = useState();
@@ -76,23 +78,24 @@ function Form() {
         <div>
           {/* Conditional Rendering Here  */}
           {/* If item */}
-          {inputType == "item" && (
+          {inputType === "item" && (
             <AddItem formData={formData} handleChange={handleChange} />
           )}
-
           {/* If Spell */}
-          {inputType == "spell" && (
+          {inputType === "spell" && (
             <AddSpell formData={formData} handleChange={handleChange} />
           )}
           {/* If Weapon */}
-          {inputType == "weapon" && (
+          {inputType === "weapon" && (
             <AddWeapon formData={formData} handleChange={handleChange} />
           )}
           {/* Submit Button */}
         </div>
-        <button type="submit" className="btn btn-primary">
-          Submit
-        </button>
+        {inputType && inputType !== "Select an input type" &&(
+          <button type="submit" className="btn">
+            Submit
+          </button>
+        )}
       </form>
     </div>
   );

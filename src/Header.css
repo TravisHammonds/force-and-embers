@@ -2,26 +2,34 @@
 
 /* colors 
 
- primary: #7c142c
-secondary: #e4934c
-tertiary: #cc8c54
-accent: #542b29 
+Primary Color (Main Theme):
+Hex Code: #2C2D34
+
+Secondary Color (Supporting Theme):
+Hex Code: #E94822
+
+Accent Color (Highlight/Call-to-Action):
+Hex Code: #F2910A
+
+Alternative Color (Versatile Highlight):
+Hex Code: #EFD510
 
 */
 
+
 .title {
   font-family: "Cinzel", serif;
-  color: #7c142c !important;
+  color:white !important;
 }
 
 .navbar {
-  background-color: #e4934c;
+  background-color: #E94822;
 }
 
 .nav-link {
-  color: #7c142c !important;
+  color:  white !important;
+  font-family: "Mate SC", serif;
+  font-size: medium !important;
 }
 
-header {
-  font-family: "Mate SC", serif;
-}
+

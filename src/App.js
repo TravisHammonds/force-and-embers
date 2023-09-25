@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./Header";
 import Form from "./Form/Form";
 import Compendium from "./Compendium";
+import "./App.css"
 
 function App() {
   return (
